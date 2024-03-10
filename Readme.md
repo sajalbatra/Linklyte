@@ -1,4 +1,4 @@
-## URL Shortener Service
+##Linklyte: URL Shortener Service
 
 ### Introduction
 
