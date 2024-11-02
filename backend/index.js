@@ -1,8 +1,9 @@
-// import express from "express";
 import {app} from "./app.js"
 import server from "./databases/db.js";
 import 'dotenv/config'
-const port=process.env.PORT;
+const port=process.env.PORT || 3000;
+import cors from "cors"
+app.use(cors())
 
 server()
     .then(() => {
