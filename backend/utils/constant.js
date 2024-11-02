@@ -1,1 +1,1 @@
-export const weburl="http://localhost:8080/"
+export const weburl="https://linklyte.onrender.com/"
